@@ -13,7 +13,7 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Plitt, Mark H.; Giocomo, Lisa M. (2025) Sosa et al. (2025) A flexible hippocampal
+citation: Sosa, Marielena; Plitt, Mark H.; Giocomo, Lisa M. (2025) A flexible hippocampal
   population code for experience relative to reward (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/001361/draft
 contributor:
@@ -23,7 +23,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 - identifier: 0000-0003-0762-1128
-  includeInCitation: false
+  includeInCitation: true
   name: Sosa, Marielena
   roleName:
   - dcite:Author
@@ -43,10 +43,23 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-03-13T06:23:11.234153+00:00'
-description: 2-photon imaging and behavioral data from hippocampal area CA1 during
-  virtual reality navigation in mice. Included in Sosa, Plitt, & Giocomo (2025) "A
-  flexible hippocampal population code for experience relative to reward." Nature
-  Neuroscience.
+description: "2-photon imaging and behavioral data from hippocampal area CA1 during
+  virtual reality navigation in mice. Will be included in Sosa, Plitt, & Giocomo,
+  \"A flexible hippocampal population code for experience relative to reward,\" Nature
+  Neuroscience (forthcoming).\n\nTo reinforce rewarding behaviors, events leading
+  up to and following rewards must be remembered. Hippocampal place cell activity
+  spans spatial and non-spatial episodes, but whether hippocampal activity encodes
+  entire sequences of events relative to reward is unknown. To test this, we performed
+  two-photon imaging of hippocampal CA1 as mice navigated virtual environments with
+  changing hidden reward locations. When the reward moved, a subpopulation of neurons
+  updated their firing fields to the same relative position with respect to reward,
+  constructing behavioral timescale sequences spanning the entire task. Over learning,
+  this reward-relative representation became more robust as additional neurons were
+  recruited, and changes in reward-relative firing often preceded behavioral adaptations
+  following reward relocation. Concurrently, the spatial environment code was maintained
+  through a parallel, dynamic subpopulation rather than through dedicated cell classes.
+  These findings reveal how hippocampal ensembles flexibly encode multiple aspects
+  of experience while amplifying behaviorally relevant information."
 ethicsApproval: []
 id: DANDI:001361/draft
 identifier: DANDI:001361
@@ -56,8 +69,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001361/versions/draft/assets/
-name: Sosa et al. (2025) A flexible hippocampal population code for experience relative
-  to reward
+name: A flexible hippocampal population code for experience relative to reward
 protocol: []
 relatedResource: []
 repository: https://dandiarchive.org

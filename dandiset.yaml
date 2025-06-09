@@ -73,7 +73,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-03-13T06:23:11.234153+00:00'
-datePublished: '2025-04-06T00:45:27.761521+00:00'
+datePublished: '2025-06-09T22:49:34.908136+00:00'
 description: "2-photon imaging and behavioral data from hippocampal area CA1 during
   virtual reality navigation in mice. Included in Sosa, Plitt, & Giocomo, \"A flexible
   hippocampal population code for experience relative to reward,\" Nature Neuroscience.\n
@@ -101,15 +101,14 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001361/versions/draft/assets/
 name: A flexible hippocampal population code for experience relative to reward
-protocol: []
 publishedBy:
-  endDate: '2025-04-06T00:45:27.761521+00:00'
-  id: urn:uuid:1a375579-42d8-4ca6-ae14-2162860f5fc0
+  endDate: '2025-06-09T22:49:34.908136+00:00'
+  id: urn:uuid:b123739e-b5a3-42cc-a145-f4248068ef08
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-04-06T00:45:27.761521+00:00'
+  startDate: '2025-06-09T22:49:34.908136+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:3ea3f3df-9c3f-43b6-b04a-964aa33da62b
+  - id: urn:uuid:01482b9e-c4f1-4e12-b82b-aabf5edb998b
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -121,10 +120,16 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/GiocomoLab/Sosa_et_al_2024
+- identifier: 10.1038/s41593-025-01985-4
+  name: A flexible hippocampal population code for experience relative to reward
+  relation: dcite:IsPublishedIn
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41593-025-01985-4
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001361/draft
 version: draft
 wasGeneratedBy:

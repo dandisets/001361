@@ -44,8 +44,8 @@ assetsSummary:
   - PlaneSegmentation
   - TwoPhotonSeries
 citation: Sosa, Marielena; Plitt, Mark H.; Giocomo, Lisa M. (2025) A flexible hippocampal
-  population code for experience relative to reward (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001361/draft
+  population code for experience relative to reward (Version 0.251124.0550) [Data
+  set]. DANDI Archive. https://doi.org/10.48324/dandi.001361/0.251124.0550
 contributor:
 - awardNumber: 1 K99 MH 135993-01
   name: National Institutes of Health (NIH)
@@ -73,6 +73,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-03-13T06:23:11.234153+00:00'
+datePublished: '2025-11-24T05:50:32.837787+00:00'
 description: 2-photon imaging and behavioral data from hippocampal area CA1 during
   virtual reality navigation in mice. Included in Sosa, Plitt, & Giocomo (2025), "A
   flexible hippocampal population code for experience relative to reward," Nature
@@ -90,16 +91,29 @@ description: 2-photon imaging and behavioral data from hippocampal area CA1 duri
   rather than through dedicated cell classes. These findings reveal how hippocampal
   ensembles flexibly encode multiple aspects of experience while amplifying behaviorally
   relevant information.
+doi: 10.48324/dandi.001361/0.251124.0550
 ethicsApproval: []
-id: DANDI:001361/draft
+id: DANDI:001361/0.251124.0550
 identifier: DANDI:001361
 keywords:
 - hippocampus, navigation, learning, memory, 2-photon imaging, place cells
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001361/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001361/0.251124.0550/assets.yaml
 name: A flexible hippocampal population code for experience relative to reward
+publishedBy:
+  endDate: '2025-11-24T05:50:32.837787+00:00'
+  id: urn:uuid:1feda27d-7349-4273-bbe1-902870947690
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-11-24T05:50:32.837787+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:3a26b6c0-7222-4ebd-9315-15125188d7d3
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Custom analysis code
   relation: dcite:IsSupplementedBy
@@ -117,8 +131,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001361/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001361/0.251124.0550
+version: 0.251124.0550
 wasGeneratedBy:
 - description: BRAIN Initiative K99
   endDate: '2026-04-30T23:59:00-07:00'

@@ -11,24 +11,24 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: two-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 92560251500
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 92448350544
   numberOfFiles: 152
   numberOfSubjects: 11
   schemaKey: AssetsSummary
@@ -37,12 +37,12 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - TwoPhotonSeries
-  - PlaneSegmentation
-  - BehavioralTimeSeries
   - ProcessingModule
-  - ImagingPlane
+  - BehavioralTimeSeries
   - OpticalChannel
+  - ImagingPlane
+  - PlaneSegmentation
+  - TwoPhotonSeries
 citation: Sosa, Marielena; Plitt, Mark H.; Giocomo, Lisa M. (2025) A flexible hippocampal
   population code for experience relative to reward (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/001361/draft
